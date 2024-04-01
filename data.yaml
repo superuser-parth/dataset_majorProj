@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Cavity', 'Fillings', 'Impacted Tooth', 'Implant']
+
+roboflow:
+  workspace: final-project-4xiod
+  project: dental-radiography-analysis-and-diagnosis-ak6su
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/final-project-4xiod/dental-radiography-analysis-and-diagnosis-ak6su/dataset/13
